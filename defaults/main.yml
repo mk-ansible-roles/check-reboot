@@ -1,0 +1,11 @@
+# Set the following to treu if you want to run a "yum update -y" before rebooting
+check_reboot_update: true
+
+# Reboot only if required due to updates
+check_reboot_only_if_needed: true
+
+# Reboot timeout. 
+# Large servers may take very long to reboot (Default: 1800s = 30min). 
+# you may want to change this according to your environment
+check_reboot_timeout: 600
+
